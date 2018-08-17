@@ -25,4 +25,29 @@ h1{
     width: 980px;
     margin: 40px auto; 
     /* Top and bottom are 40px, and left and right set to auto so that it is pushed to the middle */
+    overflow: hidden;
+}
+
+#slider{
+    width: 940px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    /* Overflow set to hidden so that you have only one image displayed at a time */
+    float: left;
+    padding: 3px;
+    border: #555 dashed 2px;
+    border-radius: 10px;
+}
+
+#slider img{
+    width: 980px;
+    margin: 40px auto;  
+}
+
+#Previous, #Next{
+    float: left;
+    margin-top: 130px;
+    cursor: pointer;
+    position: relative;
 }
